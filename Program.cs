@@ -1,4 +1,4 @@
-﻿//Proyecto Gestion de listas
+﻿//Proyecto: Gestion de listas
 
 // Listas que almacenan los productos y sus precios
 List<string> productos = new List<string>() {"Pan", "Cafe", "Chocolate", "Tee" };
