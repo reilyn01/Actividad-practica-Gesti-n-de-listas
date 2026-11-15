@@ -1,4 +1,4 @@
-﻿
+﻿//Proyecto Gestion de listas
 
 // Listas que almacenan los productos y sus precios
 List<string> productos = new List<string>() {"Pan", "Cafe", "Chocolate", "Tee" };
@@ -45,7 +45,7 @@ static void BuscarProductoYprecio(List<string> productos , List<double> precios)
     Console.Write("Buscar producto: ");
     string buscar = Console.ReadLine();
 
-    Console.Write("Buscar: ");
+    Console.Write("Buscar precio: ");
     double buscarP = Convert.ToDouble(Console.ReadLine());
 
     if (productos.Contains(buscar))
