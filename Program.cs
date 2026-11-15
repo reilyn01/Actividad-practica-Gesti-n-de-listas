@@ -98,7 +98,7 @@ static void MostrarEstadisticas(List<string> productos, List<double> precios)
     Console.WriteLine("Promedio: " + precios.Average());
 }
 
-// Ordena los productos en orden alfabético  precios
+// Ordena los productos en orden alfabético y ordena los precios de menor a mayor
 static void OrdenarProductosYprecio(List<string> productos , List<double> precios)
 {
     productos.Sort();
@@ -120,7 +120,7 @@ static void OrdenarProductosYprecio(List<string> productos , List<double> precio
 
 
 
-
+// Repite el menú hasta seleccionar la opción 0
 
 while (opcion != 0) {
 
@@ -137,7 +137,7 @@ while (opcion != 0) {
     opcion = Convert.ToInt32(Console.ReadLine());
 
 
-
+    // Ejecuta el método  a la opción elegida
     switch (opcion)
     {
         case 1:
